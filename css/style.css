@@ -194,7 +194,48 @@ img {
     cursor: pointer;
 }
 
+.form-order {
+    display: flex;
+    flex-direction: column;  
+}
 
+.window-p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.form-order {
+    margin-top: 28px;
+} 
+
+.form-label {
+    position: relative;
+    display: block;
+    margin-bottom: 28px;
+}
+
+.form-name {
+    position: absolute;
+    top: -18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--grey-text);
+}
+
+/* .form-svg {
+    position: absolute;
+} */
+
+.modal {
+    padding: 40px;
+}
 
 .backdrop {
     position: fixed;
@@ -234,6 +275,8 @@ img {
     pointer-events: none;
     /* transform: translate(100%, 100%); */
 }
+
+
 
 .title {
     text-transform: uppercase;
